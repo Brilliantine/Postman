@@ -8,9 +8,9 @@
 ![2022-05-21_12-19-48](https://user-images.githubusercontent.com/40222971/169645356-7bf3cf4d-9119-452c-869c-5a7f2503250b.png)</br>
 
 В Headers делаем новую запись с ключом app-id
-![2022-05-21_12-38-13](https://user-images.githubusercontent.com/40222971/169645680-be2e8ad1-900e-4e4e-b80a-ffbb784dc346.png)
+![2022-05-21_12-38-13](https://user-images.githubusercontent.com/40222971/169645680-be2e8ad1-900e-4e4e-b80a-ffbb784dc346.png)</br>
+Теперь мы можем составлять запросы</br>
 ## Запросы
-Теперь мы можем составлять запросы
 ### POST
 Создадим нового пользователя.</br>
 Для этого выберем метод `POST`, добавим к базовому url `/user/create`. Затем перейдем во вкладку Body, выставим raw и выберем тип JSON</br>
