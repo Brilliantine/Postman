@@ -13,7 +13,7 @@
 Теперь мы можем оставлять запросы
 ### POST
 Создадим нового пользователя.</br>
-Для этого добавим к базовому url `/user/create`. Затем перейдем во вкладку Body, выставим raw и выберем тип JSON</br>
+Для этого выберем метод `POST`, добавим к базовому url `/user/create`. Затем перейдем во вкладку Body, выставим raw и выберем тип JSON</br>
 ***Тело запроса:***
 ```JSON
 {
@@ -38,7 +38,33 @@
 ![2022-05-21_13-35-27](https://user-images.githubusercontent.com/40222971/169647783-3f703585-d1cf-4e72-9537-89391fc4c629.png)</br>
 Копируем id из 2 строчки. Нам он ещё пригодиться.</br>
 ### GET
-К базовому url добавляем `/user/6288bde93275fd10c6e7c72c`.</br>
+К базовому url добавляем `/user/6288bde93275fd10c6e7c72c`, выбераметод `GET`.</br>
 ***Получаем созданного нами пользователя***
-![2022-05-21_13-44-06](https://user-images.githubusercontent.com/40222971/169648143-b7a5a48e-0900-46b4-9344-cdbe4801ffb5.png)
-
+![2022-05-21_13-44-06](https://user-images.githubusercontent.com/40222971/169648143-b7a5a48e-0900-46b4-9344-cdbe4801ffb5.png)</br>
+### PUT
+Обновим данные нашего пользователя. Для скопируем предыдущий запрос `POST`, к базовому url добавим `/user/6288bde93275fd10c6e7c72c`, выберем метод `PUT`.</br>
+***Поменяем тело запроса:***
+```JSON
+{
+    "title": "mrs",
+    "firstName": "Erica",
+    "lastName": "Cartman",
+    "email": "ericcartwqfqfqgqgqgaman@gmail.com",
+    "dateOfBirth": "3/1/1990",
+    "phone": "+7(111)111-11-11",
+    "picture": "https://dummyapi.io/",
+    "location":
+        {
+            "street": "Green Street",
+            "city": "Moscow",
+            "state": "Moscow",
+            "country": "Russia",
+            "timezone": "+7:00"
+        }
+}
+```
+***Данные успешно изменены***
+![2022-05-21_14-03-01](https://user-images.githubusercontent.com/40222971/169648798-20d91a8c-8252-4faf-8f04-840bcc790697.png)</br>
+### DELETE
+Удалим нашего пользователя.</br>
+Для этого
