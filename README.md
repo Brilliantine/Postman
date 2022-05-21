@@ -35,4 +35,5 @@
 }
 ```
 ***Пользователь успешно создан***</br>
-![2022-05-21_13-28-40](https://user-images.githubusercontent.com/40222971/169647559-cfd9cc13-267b-4ae9-add8-9394f3be958f.png)
+![2022-05-21_13-35-27](https://user-images.githubusercontent.com/40222971/169647783-3f703585-d1cf-4e72-9537-89391fc4c629.png)
+
