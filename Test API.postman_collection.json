@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "290d9f21-1f65-40c3-90ae-3890cefd6186",
+		"name": "Test API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19393192"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "6288aef5aa67908609f4f790",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"mr\",\r\n    \"firstName\": \"Eric\",\r\n    \"lastName\": \"Cartman\",\r\n    \"email\": \"ericcartwqfqfqgqgqgaman@gmail.com\",\r\n    \"dateOfBirth\": \"1/1/1990\",\r\n    \"phone\": \"+7(000)000-00-00\",\r\n    \"picture\": \"https://dummyapi.io/\",\r\n    \"location\":\r\n        {\r\n            \"street\": \"Green Street\",\r\n            \"city\": \"Moscow\",\r\n            \"state\": \"Moscow\",\r\n            \"country\": \"Russia\",\r\n            \"timezone\": \"+7:00\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "6288aef5aa67908609f4f790",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"mrs\",\r\n    \"firstName\": \"Erica\",\r\n    \"lastName\": \"Cartman\",\r\n    \"email\": \"ericcartwqfqfqgqgqgaman@gmail.com\",\r\n    \"dateOfBirth\": \"3/1/1990\",\r\n    \"phone\": \"+7(111)111-11-11\",\r\n    \"picture\": \"https://dummyapi.io/\",\r\n    \"location\":\r\n        {\r\n            \"street\": \"Green Street\",\r\n            \"city\": \"Moscow\",\r\n            \"state\": \"Moscow\",\r\n            \"country\": \"Russia\",\r\n            \"timezone\": \"+7:00\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1//user/6288bde93275fd10c6e7c72c",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"",
+						"user",
+						"6288bde93275fd10c6e7c72c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "6288aef5aa67908609f4f790",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/6288bde93275fd10c6e7c72c",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"6288bde93275fd10c6e7c72c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "6288aef5aa67908609f4f790",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/6288bde93275fd10c6e7c72c",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						"6288bde93275fd10c6e7c72c"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
