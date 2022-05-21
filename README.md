@@ -3,6 +3,12 @@
 ![2022-05-21_12-16-59](https://user-images.githubusercontent.com/40222971/169644911-23dfaf52-dc2f-41a6-90cc-7f166374c616.png)</br>
 [Документация](https://dummyapi.io/docs)</br>
 При составлении запросов, будем работать с базовым URL https://dummyapi.io/data/v1/</br>
+- [Предварительные действия](https://github.com/Brilliantine/Postman#предварительные-действия)
+- [Запросы](https://github.com/Brilliantine/Postman#запросы)
+    - [POST](https://github.com/Brilliantine/Postman#post)
+    - [GET](https://github.com/Brilliantine/Postman#get)
+    - [PUT](https://github.com/Brilliantine/Postman#put)
+    - [DELETE](https://github.com/Brilliantine/Postman#delete)
 ## Предварительные действия
 Прежде чем приступить к отправке запросов, необходиму пройти идентификацию. Для этого необходимо создать личный идентификатор app-id. Это можно сделать в [профиле](https://dummyapi.io/account), нажав на кнопку "Generate App ID"
 ![2022-05-21_12-19-48](https://user-images.githubusercontent.com/40222971/169645356-7bf3cf4d-9119-452c-869c-5a7f2503250b.png)</br>
